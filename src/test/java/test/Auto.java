@@ -25,9 +25,14 @@ public class Auto {
 			integro=false;
 		}
 		for(int i = 0; i < asientos.length; i++){ 
-			if(asientos[i].registro!=this.registro) {
-				integro=false;
+			
+			if(asientos[i]!=null) {
+				if(asientos[i].registro!=this.registro) {
+					integro=false;
+				}
 			}
+			
+			
 		}
 		if(integro==true){
 			return "Auto original";
