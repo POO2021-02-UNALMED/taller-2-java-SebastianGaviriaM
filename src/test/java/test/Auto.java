@@ -17,6 +17,8 @@ public class Auto {
 		}
 		return cantidad;
 	}
+	
+	
 	String verificarIntegridad() {
 		boolean integro = true;
 		int correcto = this.registro;
